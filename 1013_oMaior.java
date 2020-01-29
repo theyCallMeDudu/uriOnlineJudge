@@ -19,7 +19,7 @@ public class Main {
        b = scan.nextInt();
        c = scan.nextInt();
       
-       maiorAB = 
+       maiorAB = (a + b + Math.abs(a - b)) / 2;
          
        if(maiorAB > c) {
        		System.out.println(maiorAB + " eh o maior");  

@@ -18,7 +18,7 @@ public class Main {
       
         distancia = scan.nextInt();
         preco = scan.nextDouble();
-        consumo = distancia * preco;
+        consumo = distancia / preco;
       
         System.out.println(String.format("%.3f", consumo) + " km/l");
       

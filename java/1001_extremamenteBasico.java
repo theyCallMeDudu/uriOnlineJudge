@@ -9,12 +9,12 @@ import java.util.Scanner;
  */
 public class Main {
  
-    public static void main(String[] args) throws IOException {
-        
-    int A;
+    public static void main(final String[] args) throws IOException {
+
+		int A;
 		int B;
-		
-		Scanner entrada = new Scanner(System.in);
+
+		final Scanner entrada = new Scanner(System.in);
 		A = entrada.nextInt();
 		B = entrada.nextInt();
 		entrada.close();
